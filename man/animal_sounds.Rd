@@ -7,12 +7,12 @@
 animal_sounds(animal, sound)
 }
 \arguments{
-\item{animal}{type of animal}
+\item{animal}{string with type of animal}
 
-\item{sound}{he soudn it makes, preferably the matching sound ;)}
+\item{sound}{string with the sound it makes, preferably the matching sound ;)}
 }
 \value{
-A sentence with the animal and the osund pasted together
+A sentence with the animal and the sound pasted together
 }
 \description{
 Animal Sounds Is Just Practising Package Building

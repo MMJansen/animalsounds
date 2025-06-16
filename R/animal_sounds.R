@@ -1,9 +1,9 @@
 #' Animal Sounds Is Just Practising Package Building
 #'
-#' @param animal  type of animal
-#' @param sound he soudn it makes, preferably the matching sound ;)
+#' @param animal  string with type of animal
+#' @param sound string with the sound it makes, preferably the matching sound ;)
 #'
-#' @returns A sentence with the animal and the osund pasted together
+#' @returns A sentence with the animal and the sound pasted together
 #' @export
 #'
 #' @examples animal_sounds("cat", "miauw")
