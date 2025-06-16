@@ -7,6 +7,10 @@
 #' @export
 #'
 #' @examples animal_sounds("cat", "miauw")
+#'
+#' @details
+#' This is a **wrapper** around [paste0()].
+#'
 animal_sounds <- function(animal, sound) {
   stopifnot(is.character(animal) & length(animal) == 1)
   stopifnot(is.character(sound) & length(sound) == 1)

@@ -17,6 +17,10 @@ A sentence with the animal and the osund pasted together
 \description{
 Animal Sounds Is Just Practising Package Building
 }
+\details{
+This is a \strong{wrapper} around \code{\link[=paste0]{paste0()}}.
+}
 \examples{
 animal_sounds("cat", "miauw")
+
 }
